@@ -15,7 +15,8 @@
 
             <h3>Sign up</h3>
 
-            <form method="post" action="">
+            <form method="post" action="/signup">
+                @csrf
 
                 <div class="form-group">
 
@@ -49,7 +50,8 @@
 
             <h3> Sign in</h3>
 
-            <form method="post" action="">
+            <form method="post" action="/signin">
+                @csrf
 
                 <div class="form-group">
 
